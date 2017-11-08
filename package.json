@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-ccrazy88-react",
+  "version": "0.0.1",
+  "description": "A personalized, shareable ESLint configuration.",
+  "license": "MIT",
+  "author": "Chrisna Aing <chrisna@chrisna.org>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazy88/eslint-config-ccrazy88-react.git"
+  },
+  "scripts": {
+    "precommit": "npm run test && lint-staged",
+    "test": "npm run conflicting-rules && npm run unused-rules",
+    "conflicting-rules":
+      "eslint --print-config .eslintrc | eslint-config-prettier-check",
+    "unused-rules": "eslint-find-rules --unused ./index.js"
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
+  },
+  "dependencies": {
+    "eslint-config-ccrazy88": "^0.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.8.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
