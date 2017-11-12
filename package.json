@@ -24,20 +24,20 @@
     "eslint-config-ccrazy88": "^0.0.4"
   },
   "devDependencies": {
-    "eslint": "^4.10.0",
+    "eslint": "^4.11.0",
     "eslint-find-rules": "^3.1.1",
-    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-html": "^4.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
     "husky": "^0.14.3",
-    "lint-staged": "^4.3.0",
-    "prettier": "^1.8.1"
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.8.2"
   },
   "peerDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-plugin-html": "^3.2.2",
+    "eslint": "^4.11.0",
+    "eslint-plugin-html": "^4.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-prettier": "^2.3.1",
