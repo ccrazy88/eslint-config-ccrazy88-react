@@ -17,11 +17,14 @@ module.exports = {
 
     // React
     "react/boolean-prop-naming": "off",
+    "react/button-has-type": "off",
     "react/default-props-match-prop-types": "error",
+    "react/destructuring-assignment": "error",
     "react/forbid-component-props": "error",
     "react/forbid-elements": "error",
     "react/forbid-prop-types": "error",
     "react/forbid-foreign-prop-types": "off",
+    "react/no-access-state-in-setstate": "error",
     "react/no-array-index-key": "error",
     "react/no-danger": "warn",
     "react/no-did-mount-set-state": "off",
