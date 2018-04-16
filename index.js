@@ -21,6 +21,7 @@ module.exports = {
     "react/default-props-match-prop-types": "error",
     "react/destructuring-assignment": "error",
     "react/forbid-component-props": "error",
+    "react/forbid-dom-props": "off",
     "react/forbid-elements": "error",
     "react/forbid-prop-types": "error",
     "react/forbid-foreign-prop-types": "off",
@@ -32,6 +33,7 @@ module.exports = {
     "react/no-multi-comp": "error",
     "react/no-redundant-should-component-update": "error",
     "react/no-set-state": "off",
+    "react/no-this-in-sfc": "error",
     "react/no-typos": "error",
     "react/no-unused-prop-types": "error",
     "react/no-unused-state": "error",
@@ -48,8 +50,10 @@ module.exports = {
 
     // React -> JSX-specific rules
     "react/jsx-boolean-value": "error",
+    "react/jsx-child-element-spacing": "off",
     "react/jsx-filename-extension": ["error", { extensions: [".js", ".jsx"] }],
     "react/jsx-handler-names": "error",
+    "react/jsx-max-depth": "off",
     "react/jsx-no-bind": "off",
     "react/jsx-no-literals": "off",
     "react/jsx-curly-brace-presence": [
@@ -57,6 +61,7 @@ module.exports = {
       { props: "never", children: "never" }
     ],
     "react/jsx-pascal-case": "error",
+    "react/jsx-sort-default-props": "off",
     "react/jsx-sort-props": "off"
   },
   settings: {
