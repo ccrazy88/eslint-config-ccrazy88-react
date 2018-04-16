@@ -30,7 +30,7 @@ module.exports = {
     "react/no-danger": "warn",
     "react/no-did-mount-set-state": "off",
     "react/no-did-update-set-state": "error",
-    "react/no-multi-comp": "error",
+    "react/no-multi-comp": "off",
     "react/no-redundant-should-component-update": "error",
     "react/no-set-state": "off",
     "react/no-this-in-sfc": "error",
