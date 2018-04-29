@@ -21,19 +21,19 @@
     "*.json": ["prettier --write", "git add"]
   },
   "dependencies": {
-    "eslint-config-ccrazy88": "^1.2.0"
+    "eslint-config-ccrazy88": "^1.2.1"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-find-rules": "^3.2.2",
+    "eslint-find-rules": "^3.2.3",
     "eslint-plugin-html": "^4.0.3",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "husky": "^0.14.3",
-    "lint-staged": "^7.0.4",
-    "prettier": "^1.12.0"
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1"
   },
   "peerDependencies": {
     "eslint": "^4.19.1",
