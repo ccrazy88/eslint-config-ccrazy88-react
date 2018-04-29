@@ -13,6 +13,10 @@ module.exports = {
   plugins: ["html", "jsx-a11y", "react"],
   rules: {
     // JSX accessibility
+    "jsx-a11y/label-has-for": [
+      "error",
+      { required: { some: ["nesting", "id"] } }
+    ],
     "jsx-a11y/lang": "error",
 
     // React
