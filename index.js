@@ -65,6 +65,7 @@ module.exports = {
       { props: "never", children: "never" }
     ],
     "react/jsx-pascal-case": "error",
+    "react/jsx-props-no-multi-spaces": "error",
     "react/jsx-sort-default-props": "off",
     "react/jsx-sort-props": "off"
   },
