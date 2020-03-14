@@ -27,7 +27,12 @@ module.exports = {
     "react/forbid-elements": "error",
     "react/forbid-foreign-prop-types": "off",
     "react/forbid-prop-types": "error",
+    "react/function-component-definition": [
+      "error",
+      { namedComponents: "arrow-function", unnamedComponents: "arrow-function" }
+    ],
     "react/no-access-state-in-setstate": "error",
+    "react/no-adjacent-inline-elements": "off",
     "react/no-array-index-key": "error",
     "react/no-children-prop": "error",
     "react/no-danger": "warn",
@@ -92,8 +97,10 @@ module.exports = {
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-literals": "off",
+    "react/jsx-no-script-url": "error",
     "react/jsx-no-target-blank": "error",
     "react/jsx-no-undef": "error",
+    "react/jsx-no-useless-fragment": "error",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-pascal-case": "error",
     "react/jsx-props-no-multi-spaces": "off",
