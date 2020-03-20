@@ -24,7 +24,7 @@
     "*.json": "prettier --write"
   },
   "dependencies": {
-    "eslint-config-ccrazy88": "^2.1.0"
+    "eslint-config-ccrazy88": "^2.1.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -37,7 +37,7 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
-    "react": "^16.13.0"
+    "react": "^16.13.1"
   },
   "peerDependencies": {
     "eslint": "6.x",
