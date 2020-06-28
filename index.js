@@ -4,12 +4,12 @@ module.exports = {
     "ccrazy88",
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
-    "prettier/react"
+    "prettier/react",
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   plugins: ["html", "jsx-a11y", "react"],
   rules: {
@@ -29,7 +29,10 @@ module.exports = {
     "react/forbid-prop-types": "error",
     "react/function-component-definition": [
       "error",
-      { namedComponents: "arrow-function", unnamedComponents: "arrow-function" }
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
+      },
     ],
     "react/no-access-state-in-setstate": "error",
     "react/no-adjacent-inline-elements": "off",
@@ -79,7 +82,7 @@ module.exports = {
     "react/jsx-closing-tag-location": "off",
     "react/jsx-curly-brace-presence": [
       "error",
-      { props: "never", children: "never" }
+      { props: "never", children: "never" },
     ],
     "react/jsx-curly-newline": "off",
     "react/jsx-curly-spacing": "off",
@@ -110,13 +113,13 @@ module.exports = {
     "react/jsx-tag-spacing": "off",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-    "react/jsx-wrap-multilines": "off"
+    "react/jsx-wrap-multilines": "off",
   },
   settings: {
     "html/report-bad-indent": "error",
     "import/extensions": [".js", ".jsx"],
     react: {
-      version: "detect"
-    }
-  }
+      version: "detect",
+    },
+  },
 };
