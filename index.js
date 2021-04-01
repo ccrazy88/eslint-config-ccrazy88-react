@@ -4,7 +4,6 @@ module.exports = {
     "ccrazy88",
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
-    "prettier/react",
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -56,6 +55,7 @@ module.exports = {
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
     "react/no-unsafe": "off",
+    "react/no-unstable-nested-components": "error",
     "react/no-unused-prop-types": "error",
     "react/no-unused-state": "error",
     "react/no-will-update-set-state": "error",
@@ -98,6 +98,7 @@ module.exports = {
     "react/jsx-max-props-per-line": "off",
     "react/jsx-no-bind": "off",
     "react/jsx-no-comment-textnodes": "error",
+    "react/jsx-no-constructed-context-values": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-literals": "off",
     "react/jsx-no-script-url": "error",
