@@ -20,23 +20,23 @@
     "*.json": "prettier --write"
   },
   "dependencies": {
-    "eslint-config-ccrazy88": "^7.0.1"
+    "eslint-config-ccrazy88": "^7.0.2"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^5.9.1",
-    "eslint": "^8.6.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.12.0",
     "eslint-find-rules": "^4.1.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-import-resolver-typescript": "^2.7.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react": "^7.29.4",
     "husky": "^7.0.4",
-    "lint-staged": "^12.1.7",
-    "prettier": "^2.5.1",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.1",
     "react": "^17.0.2",
-    "typescript": "^4.5.4"
+    "typescript": "^4.6.3"
   },
   "peerDependencies": {
     "@typescript-eslint/parser": "5.x",
