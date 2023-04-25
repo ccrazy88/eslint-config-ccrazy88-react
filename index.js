@@ -14,6 +14,8 @@ module.exports = {
   rules: {
     // JSX accessibility
     "jsx-a11y/lang": "error",
+    "jsx-a11y/no-aria-hidden-on-focusable": "error",
+    "jsx-a11y/prefer-tag-over-role": "error",
 
     // React
     "react/boolean-prop-naming": "off",
@@ -51,6 +53,7 @@ module.exports = {
     "react/no-is-mounted": "error",
     "react/no-multi-comp": "off",
     "react/no-namespace": "error",
+    "react/no-object-type-as-default-prop": "error",
     "react/no-redundant-should-component-update": "error",
     "react/no-render-return-value": "error",
     "react/no-set-state": "off",
@@ -76,6 +79,7 @@ module.exports = {
     "react/require-render-return": "error",
     "react/self-closing-comp": "error",
     "react/sort-comp": "error",
+    "react/sort-default-props": "off",
     "react/sort-prop-types": "off",
     "react/state-in-constructor": "off",
     "react/static-property-placement": "off",
