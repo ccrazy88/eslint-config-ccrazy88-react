@@ -20,32 +20,32 @@
     "*.json": "prettier --write"
   },
   "dependencies": {
-    "eslint-config-ccrazy88": "^10.0.1"
+    "eslint-config-ccrazy88": "^11.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^5.59.1",
-    "eslint": "^8.39.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
     "eslint-find-rules": "^4.1.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.1",
-    "prettier": "^2.8.8",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
     "react": "^18.2.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": "5.x",
+    "@typescript-eslint/parser": "6.x",
     "eslint": "8.x",
     "eslint-import-resolver-typescript": "3.x",
     "eslint-plugin-html": "7.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-prettier": "4.x",
+    "eslint-plugin-prettier": "5.x",
     "eslint-plugin-react": "7.x"
   }
 }
