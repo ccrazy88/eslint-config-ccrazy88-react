@@ -20,6 +20,7 @@ module.exports = {
     // React
     "react/boolean-prop-naming": "off",
     "react/button-has-type": "off",
+    "react/checked-requires-onchange-or-readonly": "off",
     "react/default-props-match-prop-types": "error",
     "react/destructuring-assignment": "error",
     "react/display-name": "off",
