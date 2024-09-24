@@ -29,6 +29,7 @@ module.exports = {
     "react/forbid-elements": "error",
     "react/forbid-foreign-prop-types": "off",
     "react/forbid-prop-types": "error",
+    "react/forward-ref-uses-ref": "error",
     "react/function-component-definition": [
       "error",
       {
