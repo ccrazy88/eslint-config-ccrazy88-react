@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "Chrisna Aing <chrisna@chrisna.org>",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/crazy88/eslint-config-ccrazy88-react.git"
@@ -13,39 +14,31 @@
     "prepare": "husky",
     "test": "npm run conflicting-rules && npm run unused-rules",
     "conflicting-rules": "eslint --print-config .eslintrc | eslint-config-prettier index.js",
-    "unused-rules": "eslint-find-rules --unused ./index.js"
+    "unused-rules": "eslint-find-rules --flatConfig --unused ./index.js"
   },
   "lint-staged": {
     "*.js": "eslint --fix",
     "*.json": "prettier --write"
   },
   "dependencies": {
-    "eslint-config-ccrazy88": "^13.0.2"
+    "eslint-config-ccrazy88": "^14.0.1",
+    "eslint-plugin-html": "^8.1.3",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^7.18.0",
-    "eslint": "^8.57.1",
-    "eslint-find-rules": "^4.2.0",
-    "eslint-import-resolver-typescript": "^3.7.0",
-    "eslint-plugin-html": "^8.1.2",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.37.2",
+    "@typescript-eslint/parser": "^8.53.1",
+    "eslint-find-rules": "^5.0.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "globals": "^17.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.2.10",
-    "prettier": "^3.4.2",
-    "react": "^19.0.0",
-    "typescript": "^5.7.2"
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1",
+    "react": "^19.2.3",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": "7.x",
-    "eslint": "8.x",
-    "eslint-import-resolver-typescript": "3.x",
-    "eslint-plugin-html": "8.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-prettier": "5.x",
-    "eslint-plugin-react": "7.x"
+    "@typescript-eslint/parser": "8.x",
+    "eslint-import-resolver-typescript": "4.x"
   }
 }
